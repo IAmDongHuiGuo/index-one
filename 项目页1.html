@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>岛恋</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="项目页1.css">
+</head>
+<body>
+<!--首部-->
+
+<nav id="nav">
+    <div class="top">
+        <!--上部导航-->
+        <div class="nav-top">
+            <div class="container">
+                <a href="" class="nav-top-a1">登录</a>
+                <a href="" class="nav-top-a2">注册</a>
+                <div class="pull-right">
+                    <ul class="nav-top-ul">
+                        <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">我的岛恋<span
+                                class="caret"></span>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">我的信息</a></li>
+                                <li><a href="#">我的恋币</a></li>
+                                <li><a href="#">未出行</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">我的订单</a></li>
+                            </ul>
+                        </a></li>
+                        <li><a href="">商旅</a></li>
+                        <li><a href="">三亚站</a></li>
+                        <li><a href="">手机号查订单</a></li>
+                        <li class="nav-top-ul-li6"><a href=""><span><img src="imagess/telephone.png" alt=""/>
+                                    </span>40088-40088 </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--nav-top结束-->
+        </div>
+
+        <div class="nav-bottom">
+            <div class="nav-bottom-top">
+                <!--搜索框-->
+                <div class="container">
+                    <div class="nav-inp">
+                        <img src="imagess/logo.png" alt="" class="nav-inp-img1"/>
+                        <div class="inp">
+                            <input id="sousuo" type="text" class="inp-text" placeholder="请输入目的地/景点"/>
+                            <button class="btn inp-btn">搜索</button>
+                            <div class="clearfix">
+                                <ul id="tishi">
+                                </ul>
+                            </div>
+                            <!--关键字搜索-->
+                            <div class="rty">
+
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--中部导航-->
+            <div class="nav-bottom-bottom">
+                <div class="container">
+                    <ul class="nav-middle-ul">
+                        <li class="ss"><a href="">首页</a></li>
+                        <li><a href="">跟团游</a></li>
+                        <li><a href="">自助游</a></li>
+                        <li><a href="">邮轮</a></li>
+                        <li><a href="">门票</a></li>
+                        <li><a href="">签证</a></li>
+                        <li><a href="">机票</a></li>
+                        <li><a href="">酒店<span class="glyphicon glyphicon-menu-down"></span></a></li>
+                        <li><a href="">定制旅游</a></li>
+                        <li><a href="">会议旅游</a></li>
+                        <li><a href="">积分商城</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--nav-bottom结束-->
+        <!--banner部分-->
+        <div class="banner">
+            <!--logo下导航-->
+
+            <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div id="lunBo1" class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="imagess/77.png" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="imagess/88.png" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="imagess/99.png" alt="...">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="s-nav hidden-sm hidden-xs">
+                <div class="s-nav1">
+                    <ul>
+                        <li class="activer">
+                            <span class="nav1-span"></span>
+                            酒店
+                        </li>
+                        <li><span class="nav1-span"></span>
+                            机票
+                        </li>
+                        <li><span class="nav1-span"></span>
+                            旅游
+                        </li>
+                        <li><span class="nav1-span"></span>
+                            游轮
+                        </li>
+                    </ul>
+                </div>
+                <div class="s-nav2">
+                    <ul>
+                        <li class="kl">
+                            <div class="nm">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs nm-ul" role="tablist">
+                                    <li role="presentation" class="active"><a href="#home" aria-controls="home"
+                                                                              role="tab" data-toggle="tab">海外酒店</a></li>
+                                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab"
+                                                               data-toggle="tab">精品酒店</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active activess" id="home">
+                                        <p><span>目的地 </span><input type="text" placeholder="中文/拼音"/></p>
+                                        <p><span>入住日期</span><input type="text"/></p>
+                                        <p><span>离店日期</span><input type="text"/></p>
+                                        <p><span>关键字 </span><input type="text" placeholder="输入酒店名或品牌"/></p>
+                                        <button class="btn b123">搜索 ></button>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane activess" id="profile">
+                                        <p><span>目的地 </span><input type="text" placeholder="中文/拼音"/></p>
+                                        <p><span>关键字 </span><input type="text" placeholder="输入酒店名或品牌"/></p>
+                                        <button class="btn b123">搜索 ></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="kl">
+                            <div class="nm">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs nm-ul" role="tablist">
+                                    <li role="presentation" class="active"><a href="#pics" aria-controls="pics"
+                                                                              role="tab" data-toggle="tab">国际机票</a></li>
+
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active activess" id="pics">
+                                        <h4>国际机票正在升级改造中，敬请期待！</h4>
+                                        <p>如您需要购买国际机票，请拨打客服电话： <span>40066-40066转2</span>进行人工下单</p>
+                                        <p>工作时间：周一-周日 8:00 - 12:00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+
+                        <li class="kl">
+                            <div class="nm">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs nm-ul" role="tablist">
+                                    <li role="presentation" class="active"><a href="#homea" aria-controls="homea"
+                                                                              role="tab" data-toggle="tab">跟团游</a></li>
+                                    <li role="presentation"><a href="#profiles" aria-controls="profiles" role="tab"
+                                                               data-toggle="tab">自助游</a></li>
+                                    <li role="presentation"><a href="#poi" aria-controls="poi" role="tab"
+                                                               data-toggle="tab">港澳游</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active activess" id="homea">
+                                        <p><span>出发地 </span><input type="text" placeholder="中文/拼音"/></p>
+                                        <p><span>目的地 </span><input type="text" placeholder="请输入目的地、关键字"/></p>
+                                        <button class="btn b123">搜索 ></button>
+                                        <p class="sd">国内热门
+                                            <span><a href="">深圳</a></span>
+                                            <span><a href="">惠州</a></span>
+                                            <span><a href="">广州</a></span>
+                                            <span><a href="">三亚</a></span>
+                                            <span><a href="">丽江</a></span>
+                                            <span><a href="">桂林</a></span>
+                                            <span><a href="">厦门</a></span>
+                                        </p>
+                                        <p class="sd">出境热门
+                                            <span><a href="">香港</a></span>
+                                            <span><a href="">澳门</a></span>
+                                            <span><a href="">日本</a></span>
+                                            <span><a href="">泰国</a></span>
+                                            <span><a href="">塞班岛</a></span>
+                                            <span><a href="">马来西亚</a></span>
+                                            <span><a href="">毛里求斯</a></span>
+                                            <span><a href="">游轮特惠</a></span>
+                                        </p>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane activess" id="profiles">
+                                        <p><span>出发地 </span><input type="text" placeholder="中文/拼音"/></p>
+                                        <p><span>目的地 </span><input type="text" placeholder="请输入目的地、关键字"/></p>
+                                        <button class="btn b123">搜索 ></button>
+                                        <p class="sd">国内热门
+                                            <span><a href="">深圳</a></span>
+                                            <span><a href="">惠州</a></span>
+                                            <span><a href="">广州</a></span>
+                                            <span><a href="">三亚</a></span>
+                                            <span><a href="">丽江</a></span>
+                                            <span><a href="">桂林</a></span>
+                                            <span><a href="">厦门</a></span>
+                                        </p>
+                                        <p class="sd">出境热门
+                                            <span><a href="">香港</a></span>
+                                            <span><a href="">澳门</a></span>
+                                            <span><a href="">日本</a></span>
+                                            <span><a href="">泰国</a></span>
+                                            <span><a href="">塞班岛</a></span>
+                                            <span><a href="">马来西亚</a></span>
+                                            <span><a href="">毛里求斯</a></span>
+                                            <span><a href="">游轮特惠</a></span>
+                                        </p>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane activess" id="poi">
+                                        <p><span>出发地 </span><input type="text" placeholder="中文/拼音"/></p>
+                                        <p><span>目的地 </span><input type="text" placeholder="请输入目的地、关键字"/></p>
+                                        <button class="btn b123">搜索 ></button>
+                                        <p class="sd">国内热门
+                                            <span><a href="">深圳</a></span>
+                                            <span><a href="">惠州</a></span>
+                                            <span><a href="">广州</a></span>
+                                            <span><a href="">三亚</a></span>
+                                            <span><a href="">丽江</a></span>
+                                            <span><a href="">桂林</a></span>
+                                            <span><a href="">厦门</a></span>
+                                        </p>
+                                        <p class="sd">出境热门
+                                            <span><a href="">香港</a></span>
+                                            <span><a href="">澳门</a></span>
+                                            <span><a href="">日本</a></span>
+                                            <span><a href="">泰国</a></span>
+                                            <span><a href="">塞班岛</a></span>
+                                            <span><a href="">马来西亚</a></span>
+                                            <span><a href="">毛里求斯</a></span>
+                                            <span><a href="">游轮特惠</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="kl">
+                            <div class="nm">
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active activess" id="homet">
+                                        <p class="opiq"><span>邮轮航线</span><input type="text" placeholder="不限"/></p>
+                                        <p><span>出发城市</span><input type="text" placeholder="不限"/></p>
+                                        <button class="btn b123">搜索 ></button>
+                                        <p class="sd">热门航线
+                                            <span><a href="">日韩航线</a></span>
+                                            <span><a href="">东南亚航线</a></span>
+                                            <span><a href="">加勒比海航线</a></span>
+                                            <span><a href="">欧洲地中海航线</a></span>
+                                            <span><a href="">澳新航线</a></span>
+                                        </p>
+                                        <p class="sd">热门活动
+                                            <span><a href="">星梦游轮提前预订享78折</a></span>
+                                            <span><a href="">家门口出发，特价疯抢</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!--!!!!!1中部-->
+
+<!--七大海岛-->
+
+<header id="two" class="mag">
+    <div class="container text-center ">
+        <div class="HdTop">
+            <img class="img-responsive center-block" src="imagess/a1741a99-5cd5-49d9-a925-c6877b9da550.png" alt="">
+            <div class="HdTop_diV">
+                <a href="项目页2.html"><img class="img-responsive" src="imagess/img1.png" alt=""></a>
+                <p><a href="项目页2.html" class="h4">01.马尔代夫</a></p>
+            </div>
+            <div class="HdTop_diV">
+                <a href="项目页2.html"><img class="img-responsive" src="imagess/img2.png" alt=""></a>
+                <p><a href="项目页2.html" class="h4">02.巴厘岛</a></p>
+            </div>
+            <div class="HdTop_diV">
+                <a href="项目页2.html"><img class="img-responsive" src="imagess/img3.png" alt=""></a>
+                <p><a href="项目页2.html" class="h4">03.斯里兰卡</a></p>
+            </div>
+            <div class="HdTop_diV">
+                <a href="项目页2.html"><img class="img-responsive" src="imagess/img4.png" alt=""></a>
+                <p><a href="项目页2.html" class="h4">04.普吉岛</a></p>
+            </div>
+            <div class="HdTop_diV">
+                <a href="项目页2.html"><img class="img-responsive" src="imagess/img5.png" alt=""></a>
+                <p><a href="项目页2.html" class="h4">05.毛里求斯</a></p>
+            </div>
+            <div class="HdTop_diV">
+                <a href="项目页2.html"><img class="img-responsive" src="imagess/img6.png" alt=""></a>
+                <p><a href="项目页2.html" class="h4">06.夏威夷</a></p>
+            </div>
+            <div class="HdTop_diV">
+                <a href="项目页2.html"><img class="img-responsive" src="imagess/img7.png" alt=""></a>
+                <p><a href="项目页2.html" class="h4">07.塞班岛</a></p>
+            </div>
+        </div>
+        <div class="HdDown text-center clearfix">
+            <div id="baBa">
+                <div class="carousel-caption">
+                    <h1><a href=""><em>01.马尔代夫 </em></a></h1>
+                    <p>马尔代夫以其迷人的热带风光和丰富的旅游资源被称为"印度洋上的一颗明珠",而且自然资源十分丰富,
+                        有"珍宝岛"、"金银岛"的美称。主要的矿产是锡,还盛产橡胶、海产和各种水果。岛上的工商业、
+                        旅游业都比较发达。马尔代夫地处岛东南部,是一个大港口和商业中心。
+                    </p>
+                </div>
+                <div class="carousel-caption">
+                    <h1><a href=""><em>02.巴厘岛</em></a></h1>
+                    <p>巴厘岛是印尼13600多个岛屿中最耀眼的一个岛，位于印度洋赤道南，是世界著名旅游岛，
+                        印度尼西亚33个一级行政区之一。
+                    </p>
+                </div>
+                <div class="carousel-caption">
+                    <h1><a href=""><em>03.斯里兰卡</em></a></h1>
+                    <p>斯里兰卡，旧称锡兰，是个热带岛国，位于印度洋海上，英联邦成员国之一。斯里兰卡在僧伽罗语中意为
+                        “乐土”或“光明富庶的土地”，有“宝石王国”、“印度洋上的明珠”的美称，被马可·波罗认为是
+                        最美丽的岛屿。
+                    </p>
+                </div>
+                <div class="carousel-caption">
+                    <h1><a href=""><em>04.普吉岛</em></a></h1>
+                    <p>普吉岛是安达曼海当中的一个热带岛屿，自然环境纯净，海水清白，拥有丰富的海鲜和热带水果，
+                        是一座著名的度假岛，岛的东南有一个港口城镇——普吉镇，是比较热闹的一个地方，
+                        在镇上有各种购物的地方。
+                    </p>
+                </div>
+                <div class="carousel-caption">
+                    <h1><a href=""><em>05.毛里求斯</em></a></h1>
+                    <p>毛里求斯共和国为非洲东部一岛国，位于印度洋西南方，作为火山岛国，
+                        毛里求斯四周被珊瑚礁环绕，岛上地貌千姿百态，沿海是狭窄平原，中部是高原山地，
+                        有多座山脉和孤立的山峰。
+                    </p>
+                </div>
+                <div class="carousel-caption">
+                    <h1><a href=""><em>06.夏威夷</em></a></h1>
+                    <p>夏威夷州（State of Hawaii）美国唯一的群岛州，由太平洋中部的132个岛屿组成。
+                        首府位于瓦胡岛上的火奴鲁鲁（檀香山）。
+                    </p>
+                </div>
+                <div class="carousel-caption">
+                    <h1><a href=""><em>07.塞班岛</em></a></h1>
+                    <p>塞班岛是马里亚纳群岛（联邦）的主要岛屿，塞班岛及邻岛靠近亚洲，属太平洋边缘地带。
+                        北马里亚纳群岛气候舒适宜人，全年阳光充沛，空气清新，水清沙幼。年平均温度在27℃左右
+                        ，是旅游度假的天堂 。。
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</header>
+
+<!--内容-->
+<section id="three" class="clearfix">
+    <div class="container">
+
+        <div class="three_one text-center mag">
+            <div class="container text-center">
+                <div class="three_one_top text-center">
+                    <span class="h1">海岛特价游</span>
+                    <img src="imagess/333.png" alt="">
+                </div>
+                <div class="three_one_down text-center">
+                    <div class="row mag">
+                        <div class="ctrls col-md-6 col-xs-6">
+                            <img src="imagess/img8.png" alt="项目页2.html">
+                            <div class="ctrl pad text-center">
+                                <h3></h3>
+                                <p>岛恋特价：￥<span class="h2"></span>元/人</p>
+                                <a href="项目页2.html" class="btn btn-warning mag">查看详情+</a>
+                            </div>
+                        </div>
+                        <div class="ctrls col-md-6 col-xs-6">
+                            <img src="imagess/img10.png" alt="">
+                            <div class="ctrl pad text-center">
+                                <h3></h3>
+                                <p>岛恋特价：￥<span class="h2"></span>元/人</p>
+                                <a href="项目页2.html" class="btn btn-warning mag">查看详情+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mag">
+                        <div class="ctrls col-md-6 col-xs-6">
+                            <img src="imagess/img9.png" alt="">
+                            <div class="ctrl pad text-center">
+                                <h3></h3>
+                                <p>岛恋特价：￥<span class="h2"></span>元/人</p>
+                                <a href="项目页2.html" class="btn btn-warning mag">查看详情+</a>
+                            </div>
+                        </div>
+                        <div class="ctrls col-md-6 col-xs-6">
+                            <img src="imagess/img11.png" alt="">
+                            <div class="ctrl pad text-center">
+                                <h3></h3>
+                                <p>岛恋特价：￥<span class="h2"></span>元/人</p>
+                                <a href="项目页2.html" class="btn btn-warning mag">查看详情+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="three_two text-center mag">
+            <div class="container text-center">
+                <div class="three_two_top text-center">
+                    <span class="h1">热门推荐</span>
+                    <img src="imagess/QQ图片20171114224618.png" alt="">
+                </div>
+                <div class="three_two_down text-center">
+                    <div class="row mag">
+                        <div class="tuiJian col-md-6 col-xs-6">
+                            <a href="项目页2.html"><img src="imagess/img13.png" alt=""></a>
+                            <div class="pad text-center bg-primary">
+                                <h4><a href="项目页2.html"></a></h4>
+                                <small><s>原价￥12600元/人</s></small>
+                                <p>特价￥<span class="h2"></span>元/人</p>
+                            </div>
+
+                        </div>
+                        <div class="tuiJian col-md-6 col-xs-6">
+                            <a href="项目页2.html"><img src="imagess/img15.png" alt=""></a>
+                            <div class="pad text-center bg-primary">
+                                <h4><a href="项目页2.html"></a></h4>
+                                <small><s>原价￥14600元/人</s></small>
+                                <p>特价￥<span class="h2"></span>元/人</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row mag">
+                        <div class="tuiJian col-md-6 col-xs-6">
+                            <a href="项目页2.html"><img src="imagess/img14.png" alt=""></a>
+                            <div class="pad text-center bg-primary">
+                                <h4><a href="项目页2.html"></a></h4>
+                                <small><s>原价￥20000元/人</s></small>
+                                <p>特价￥<span class="h2">12000</span>元/人</p>
+                            </div>
+
+                        </div>
+                        <div class="tuiJian col-md-6 col-xs-6">
+                            <a href="项目页2.html"><img src="imagess/img16.png" alt=""></a>
+                            <div class="pad text-center bg-primary">
+                                <h4><a href="项目页2.html"></a></h4>
+                                <small><s>原价￥26000元/人</s></small>
+                                <p>特价￥<span class="h2"></span>元/人</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="three_three mag">
+            <div class="container text-center">
+                <div class="three_three_top text-center">
+                    <span class="h1 ">酒店推荐 </span>
+                    <img src="imagess/111.png" alt="">
+                </div>
+                <div class="three_three_down text-center mag">
+                    <ul>
+                        <li><img src="imagess/img17.jpg" alt=""></li>
+                        <li><img src="imagess/img18.jpg" alt=""></li>
+                        <li><img src="imagess/img19.jpg" alt=""></li>
+                        <li><img src="imagess/img20.jpg" alt=""></li>
+                        <li><img src="imagess/img21.jpg" alt=""></li>
+                        <li><img src="imagess/img22.jpg" alt=""></li>
+                        <li><img src="imagess/img23.jpg" alt=""></li>
+                        <li><img src="imagess/img24.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--页脚-->
+<footer>
+    <div class="footer-one container">
+        <h2>官方合作</h2>
+
+        <div class=" footer-one-banner">
+            <ul class="footer-one-banner-ul">
+                <li><img src="imagess/1.png" alt=""/></li>
+                <li><img src="imagess/2.png" alt=""/></li>
+                <li><img src="imagess/3.png" alt=""/></li>
+                <li><img src="imagess/4.png" alt=""/></li>
+                <li><img src="imagess/10.png" alt=""/></li>
+                <li><img src="imagess/6.png" alt=""/></li>
+                <li><img src="imagess/7.png" alt=""/></li>
+                <li><img src="imagess/8.png" alt=""/></li>
+                <li><img src="imagess/9.png" alt=""/></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-tuo">
+        <div class="foot-tuo-box">
+            <div class="container footer-tuo-banner">
+                <div class="col-md-3 col-xs-3 ">
+                    <div class="col-md-4 col-xs-12 icon">
+                        <img src="imagess/icon1.png" alt=""/>
+                    </div>
+                    <div class="col-md-8 hidden-sm hidden-xs">
+                        <p class="h4">价格保证
+                        </p><span class="footer-tuo-banner-jieshao">同类产品，保证低价</span>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 icon2">
+                    <div class="col-md-4 col-xs-12 icon">
+                        <img src="imagess/icon2.png" alt=""/>
+                    </div>
+                    <div class="col-md-8 hidden-sm hidden-xs">
+                        <p class="h4">退订保障
+                        </p><span class="footer-tuo-banner-jieshao">因特殊情况影响退订，保证退订</span>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 icon3">
+                    <div class="col-md-4 col-xs-12 icon">
+                        <img src="imagess/icon3.png" alt=""/>
+                    </div>
+                    <div class="col-md-8 hidden-sm hidden-xs">
+                        <p class="h4">救援保障
+                        </p><span class="footer-tuo-banner-jieshao">旅途中遇意外情况，保证援助</span>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 icon4">
+                    <div class="col-md-4 col-xs-12 icon">
+                        <img src="imagess/icon4.png" alt=""/>
+                    </div>
+                    <div class="col-md-8 hidden-sm hidden-xs">
+                        <ul>
+                            <li class="h4">7×24小时服务</li>
+                            <li>快速响应，全年无休</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-three">
+        <div class="footer-three-box container">
+            <ul>
+                <li class="footer-three-box-li col-xs-3">
+                    <ul class="h4">关于我们
+                        <li class="li-one">岛恋简介</li>
+                        <li>旅游度假简介</li>
+                        <li>网站地图</li>
+
+                        <li>诚聘英才</li>
+                    </ul>
+
+                </li>
+                <li class="footer-three-box-li col-xs-3">
+                    <ul class="h4">联系我们
+                        <li class="li-one ">门店信息</li>
+                        <li>意见反馈</li>
+
+                        <li>微博</li>
+
+                        <li>24小时服务电话</li>
+
+                        <li class="h3 phone">1010-6060</li>
+                    </ul>
+
+
+                </li>
+                <li class="footer-three-box-li col-xs-3">
+                    <ul class="h4">订票指南
+                        <li class="li-one">门票使用</li>
+                        <li>常见问题</li>
+                    </ul>
+                </li>
+                <li class="footer-three-box-li col-xs-3">
+                    <ul class="h4">支付方式
+                        <li class="li-one">岛恋支付方式</li>
+
+                        <li>岛恋礼品卡支付</li>
+
+                        <li>分期付款</li>
+                    </ul>
+
+                </li>
+                <li class="footer-three-box-li col-xs-3">
+                    <ul class="h4">特色服务
+                        <li class="li-one">团购预约</li>
+
+                        <li>分销系统</li>
+
+                        <li id="o">岛恋联盟 <label for="o" class="">推广赚佣金</label></li>
+
+                        <li>开放平台</li>
+
+                        <li>供应商加盟合作</li>
+                    </ul>
+
+
+                </li>
+                <li class="footer-three-box-li col-xs-3">
+                    <ul class="h4">售后服务
+                        <li class="li-one">退换货说明</li>
+
+                        <li>投诉建议</li>
+
+                        <li>举报电话：</li>
+
+                        <li class="h4">021-51242006</li>
+                    </ul>
+
+
+                </li>
+                <li class="footer-three-box-rignht hidden-sm hidden-xs hidden-md col-sm-2 ">
+                    <ul class="h5">订阅特价、促销信息
+                        <div class="input-group li-one ">
+                            <input type="text" class="form-control" id="exampleInputAmount"
+                                   placeholder="输入Emall(如：a@b.c)">
+
+                            <div class="input-group-addon">订阅</div>
+                        </div>
+                        <li class="pull-left"><img class="i" src="imagess/er.png" alt="" width="60px"/>
+                        </li>
+                        <li class=""><span>扫码下载岛恋客户端
+                        <li> 手机预订，优惠多多</li>
+                        </span></li>
+                        </p>
+                        <div class="clearfix"></div>
+                        <li>上海旅游投诉电话：021-64393615</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-four tf color-1">
+        <p>上海岛恋兴旅国际旅行社有限公司。旅行社业务经营许可证编号：L-SH-CJ00056</p>
+
+        <p>Copyrihgt @ 2017 www.daolian.com. 上海景域文化传播股份有限公司版权所有 泸ICP备13011172号-3 增值电信业务经营许可证编号：泸B2-20100030</p>
+    </div>
+</footer>
+
+<!--悬浮-->
+
+<div class="yb_conct">
+    <div class="yb_bar">
+        <ul>
+            <li class="yb_top">返回顶部</li>
+            <li class="yb_phone">40088-40088</li>
+            <li class="yb_QQ">
+                <a target="_blank"
+                   href="http://wpa.qq.com/msgrd?v=3&amp;uin=123456789&amp;site=qq&amp;menu=yes&amp;from=message&amp;isappinstalled=0
+
+" title="即刻发送您的需求">在线咨询</a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src='js/bootstrap.min.js'></script>
+<script>
+
+
+    //数据获取
+    $(function () {
+
+        $('#sousuo').on('keyup', function () {
+//        获取input中的val值
+            var txt = $(this).val();
+//        请求服务器
+
+            $.ajax({
+                url: 'https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=' + txt,
+                type: 'get',
+                dataType: 'jsonp',
+                jsonp: 'cb',
+                success: function (date) {
+                    var str = '';
+                    for (var i = 0; i < date.s.length; i++) {
+                        str += '<li>' + date.s[i] + '</li>'
+                    }
+                    $('#tishi').html(str);
+                },
+                error: function () {
+                    alert('请求失败')
+                }
+            });
+        });
+//    动态添加
+        $.ajax({
+            url: 'http://172.25.7.211:8080/OurProject/island/selectAll?jsoncalback',
+            type: 'get',
+            success: function (data) {
+                var str = '';
+                var str2 = '';
+                var str3 = '';
+                var str4 = '';
+                for (var i = 0; i < data.length; i++) {
+                    str = '<h3>' + data[i].text + '</h3>';
+                    str2 = '<span>' + data[i].price1 + '</span>';
+                    str3 = '<span>' + data[i].price2 + '</span>';
+                    str4 = '<h4>' + data[i].text + '</sh4>';
+                    if (i == 0) {
+                        $('.pad>h3').eq(0).html(str);
+                        $('.pad>p>.h2').eq(0).html(str2);
+                    } else if (i == 1) {
+                        $('.pad>h3').eq(1).html(str);
+                        $('.pad>p>.h2').eq(1).html(str2);
+                    } else if (i == 2) {
+                        $('.pad>h3').eq(2).html(str);
+                        $('.pad>p>.h2').eq(2).html(str2);
+                    } else if (i == 3) {
+                        $('.pad>h3').eq(3).html(str);
+                        $('.pad>p>.h2').eq(3).html(str2);
+                    } else if (i == 4) {
+                        $('.bg-primary>h4>a').eq(0).html(str4);
+                        $('.bg-primary>small>s>span').eq(0).html(str2);
+                        $('.bg-primary>p>span').eq(0).html(str2);
+                    } else if (i == 5) {
+                        $('.bg-primary>h4>a').eq(1).html(str4);
+                        $('.bg-primary>small>s>span').eq(1).html(str2);
+                        $('.bg-primary>p>span').eq(1).html(str2);
+                    } else if (i == 6) {
+                        $('.bg-primary>h4>a').eq(2).html(str4);
+                        $('.bg-primary>small>s>span').eq(2).html(str2);
+                        $('.bg-primary>p>span').eq(2).html(str2);
+                    } else if (i == 7) {
+                        $('.bg-primary>h4>a').eq(3).html(str4);
+                        $('.bg-primary>small>s>span').eq(3).html(str2);
+                        $('.bg-primary>p>span').eq(3).html(str2);
+                    }
+                }
+            },
+            error: function () {
+                alert('请求失败')
+            }
+        });
+
+        // 悬浮窗口
+        $(".yb_conct").hover(function () {
+            $(".yb_conct").css("right", "5px");
+            $(".yb_bar .yb_ercode").css('height', '200px');
+        }, function () {
+            $(".yb_conct").css("right", "-127px");
+            $(".yb_bar .yb_ercode").css('height', '53px');
+        });
+        // 返回顶部
+        $(".yb_top").click(function () {
+            $("html,body").animate({
+                'scrollTop': '0px'
+            }, 300)
+        });
+
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 500) {
+                $('.yb_conct').show();
+            } else {
+                $('.yb_conct').hide();
+            }
+        });
+
+//    七个海岛悬浮实现效果
+
+
+        $(".HdTop>.HdTop_diV").on("mouseover", function () {
+            $("#baBa>.carousel-caption").eq($(this).index() - 1).show().siblings().hide();
+        });
+        $(".HdTop>.HdTop_diV").on("mouseout", function () {
+            $("#baBa>.carousel-caption").hide();
+        });
+
+
+        //首部 js
+
+
+        $('.nav-middle-ul>li').on('click', function () {
+            $(this).addClass('ss').siblings().removeClass('ss');
+        });
+
+        $('.s-nav2>ul>.kl').eq(0).show().siblings().hide();
+
+//        banner上的导航
+        $('.s-nav1>ul>li').hover(function () {
+            $('.s-nav2>ul>.kl').eq($(this).index()).show().siblings().hide();
+        });
+
+
+        $('.s-nav1>ul>li').on('click', function () {
+            $('.s-nav1>ul>li').eq($(this).index()).addClass('activer').siblings().removeClass('activer');
+        });
+
+
+        //海岛特价游
+        $('.ctrls').on('mouseenter', function () {
+            $(this).children('div').stop().animate({top: 0}, 200);
+        });
+        $('.ctrls').on('mouseleave', function () {
+            $(this).children('div').stop().animate({top: '100%'}, 200);
+        });
+
+
+        //    酒店推荐手风琴动画
+        $(function () {
+            $('#three .three_three ul li').hover(function () {
+                $(this).stop().animate({width: '50.8%'}, 100).siblings().stop().animate({width: '6.8%'}, 100);
+            }, function () {
+                $('#three .three_three ul li').stop().animate({width: '12.4%'}, 100);
+            });
+        });
+    });
+
+</script>
+</html>
